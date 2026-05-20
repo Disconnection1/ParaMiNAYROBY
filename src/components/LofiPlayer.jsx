@@ -4,12 +4,12 @@ import './LofiPlayer.css';
 
 export function LofiPlayer() {
   const themeOptions = [
-    { id: 'classic', name: 'Classic', src: '/src/assets/8px8re2bo3l81.gif' },
-    { id: 'rainy', name: 'Lluvia', src: '/src/assets/6279fa60fa25fc1918bbb4830cd8ccce.gif' },
-    { id: 'neon', name: 'Neon', src: '/src/assets/6420b5ba0dd45dc35aae9705c8e275dd.gif' },
-    { id: 'dream', name: 'Dream', src: '/src/assets/651e42fdcf37fa1c13ffa701560e9ab8.gif' },
-    { id: 'vintage', name: 'Vintage', src: '/src/assets/f5ca042a0ac1c4b13ea21750b7ac7744.gif' },
-    { id: 'stars', name: 'Stars', src: '/src/assets/3182e579d9e985daa8168ea729da7cba.gif' },
+    { id: 'classic', name: 'Classic', src: '/assets/8px8re2bo3l81.gif' },
+    { id: 'rainy', name: 'Lluvia', src: '/assets/6279fa60fa25fc1918bbb4830cd8ccce.gif' },
+    { id: 'neon', name: 'Neon', src: '/assets/6420b5ba0dd45dc35aae9705c8e275dd.gif' },
+    { id: 'dream', name: 'Dream', src: '/assets/651e42fdcf37fa1c13ffa701560e9ab8.gif' },
+    { id: 'vintage', name: 'Vintage', src: '/assets/f5ca042a0ac1c4b13ea21750b7ac7744.gif' },
+    { id: 'stars', name: 'Stars', src: '/assets/3182e579d9e985daa8168ea729da7cba.gif' },
   ];
 
   const [previewSrc, setPreviewSrc] = useState(themeOptions[0].src);

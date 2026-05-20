@@ -4,12 +4,12 @@ import './LofiPlayer.css';
 
 export function LofiPlayer() {
   const themeOptions = [
-    { id: 'classic', name: 'Classic', src: '/assets/8px8re2bo3l81.gif' },
-    { id: 'rainy', name: 'Lluvia', src: '/assets/6279fa60fa25fc1918bbb4830cd8ccce.gif' },
-    { id: 'neon', name: 'Neon', src: '/assets/6420b5ba0dd45dc35aae9705c8e275dd.gif' },
-    { id: 'dream', name: 'Dream', src: '/assets/651e42fdcf37fa1c13ffa701560e9ab8.gif' },
-    { id: 'vintage', name: 'Vintage', src: '/assets/f5ca042a0ac1c4b13ea21750b7ac7744.gif' },
-    { id: 'stars', name: 'Stars', src: '/assets/3182e579d9e985daa8168ea729da7cba.gif' },
+    { id: 'classic', name: 'Classic', src: 'https://res.cloudinary.com/dhsc2oznn/image/upload/v1779243846/8px8re2bo3l81_gsaao5.gif' },
+    { id: 'rainy', name: 'Lluvia', src: 'https://res.cloudinary.com/dhsc2oznn/image/upload/v1779243860/6279fa60fa25fc1918bbb4830cd8ccce_l6da2t.gif' },
+    { id: 'neon', name: 'Neon', src: 'https://res.cloudinary.com/dhsc2oznn/image/upload/v1779243850/6420b5ba0dd45dc35aae9705c8e275dd_vofq9v.gif' },
+    { id: 'dream', name: 'Dream', src: 'https://res.cloudinary.com/dhsc2oznn/image/upload/v1779243837/651e42fdcf37fa1c13ffa701560e9ab8_jx8tsk.gif' },
+    { id: 'vintage', name: 'Vintage', src: 'https://res.cloudinary.com/dhsc2oznn/image/upload/v1779243836/f5ca042a0ac1c4b13ea21750b7ac7744_rdwwoe.gif' },
+    { id: 'stars', name: 'Stars', src: 'https://i.pinimg.com/originals/31/82/e5/3182e579d9e985daa8168ea729da7cba.gif' },
   ];
 
   const [previewSrc, setPreviewSrc] = useState(themeOptions[0].src);
